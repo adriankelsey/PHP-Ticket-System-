@@ -1,0 +1,117 @@
+.new1-ticket{
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
+.new1-ticket h1{
+    font-weight: 200;
+    margin: 1em;
+    margin-left: 1.5em;
+    margin-bottom: 2em;
+}
+
+
+
+.new1-ticket input{
+    background-color: rgba(126, 146, 233, 0.137);
+    border-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.034);
+}
+
+a{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+a:visited{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.search-box{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.row{
+    display: flex;
+    width: 50%;
+    margin-top: 1em;
+}
+
+.col{
+    display: flex;
+    width: 300px;
+    flex-direction: column-reverse;
+    margin-left: 3em; 
+}
+
+.col.view{
+    width: 400px;
+}
+
+.col.user{
+    width: 675px;
+}
+
+.col.category{
+    width: 350px;
+}
+
+.col.view.category{
+    width: 400px;
+}
+
+.col.edit.category{
+    
+    width: 300px;
+}
+
+.col.priority{
+    width: 350px;
+}
+
+
+.n{
+    margin-left: 2em;
+    width: 100em;
+    height: 3.5em;
+    border-style: solid;
+}
+
+.n.view{
+    display: flex;
+    border-color: transparent;
+    align-items: center;
+    margin-left: 5em;
+}
+
+.n.summary{
+    height: 7em;
+}
+
+.n.last-name{
+    margin-left: 1em;
+}
+
+.btn{
+width: 100px;
+justify-content: center;
+margin-top: 2em;
+}
+
+.btn.add{
+    background: rgb(31, 57, 73);
+}
+
+.row.buttons{
+    margin-left: 2em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
