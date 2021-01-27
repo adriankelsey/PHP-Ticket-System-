@@ -1,0 +1,116 @@
+
+/* Main Comtainer*/
+.view{
+    border-style: solid;
+    border-width: 1px;
+    margin: 2em;
+}
+
+
+
+/*  Row  */
+.row{
+    margin-left: 0;
+    margin: 0;
+}
+
+.row.header{
+    background-color: darkgray;
+    width: 100%;
+    margin: 0;
+    margin-top: -1em;
+}
+
+
+/* --- Collumn --- */
+.col.uidHeader{
+    width: 10%;
+    margin-left: 4.5em;
+}
+
+    /* --- Col Header --- */
+
+.col.header{
+    padding-bottom: 2em;
+    padding-top: 2em;
+    font-weight: 600;
+}
+
+.col.userHeader{
+    width: 20%;
+}
+
+.col.titleHeader{   
+    width: 30%;
+}
+
+.col.usergroupHeader{
+    width: 10%;
+}
+
+.col.categoryHeader{
+    width: 5%;
+    margin-right: 13em;
+}
+
+
+.col{
+    justify-content: flex-start;
+}
+
+.col.uid{
+    width: 10%;
+}
+
+.col.user{
+    width: 20%;
+}
+
+.col.title{
+    width: 30%;
+}
+
+.col.usergroup{
+    width: 10%;
+}
+
+.col.category{
+    width: 5%;
+}
+
+.btn{
+    border-style: solid;
+    margin: 0;
+    margin-left: 4em;
+    margin-bottom: 2em;
+}
+
+.navbar-form-filter{
+    margin-right: em;
+}
+
+.nav-list{
+    display: flex;
+    margin-top: 0;
+    background: rgba(36, 36, 36, 0.918);
+}
+
+.nav.category{
+    font-size: 12px;
+    margin-left: 2em;
+    width: 15%;
+}
+
+.nav-item{
+    margin-left: 2em;
+    text-transform: none;
+}
+
+.filter-btn{
+    font-family: 'Arimo', sans-serif;
+    border-width: 2px;
+    margin-left: 4em;
+    height: 30px;
+    width: 70px;
+}
+
